@@ -186,7 +186,7 @@ function MonDKP:CreateMenu()
   SortButtons.dkp.t:SetTextColor(1, 1, 1, 1);
   if MonDKP_DB.modes.mode == "Roll Based Bidding" then
     SortButtons.dkp.t:SetPoint("RIGHT", SortButtons.dkp, "RIGHT", -50, 0);
-    SortButtons.dkp.t:SetText("Total DKP");
+    SortButtons.dkp.t:SetText("Total GPP");
 
     SortButtons.dkp.roll = SortButtons.dkp:CreateFontString(nil, "OVERLAY");
     SortButtons.dkp.roll:SetFontObject("MonDKPNormal")
@@ -196,7 +196,7 @@ function MonDKP:CreateMenu()
     SortButtons.dkp.roll:SetText("Roll Range")
   else
     SortButtons.dkp.t:SetPoint("CENTER", SortButtons.dkp, "CENTER", 20, 0);
-    SortButtons.dkp.t:SetText("Total DKP");
+    SortButtons.dkp.t:SetText("Total GPP");
   end
 
   ----- Counter below DKP Table
