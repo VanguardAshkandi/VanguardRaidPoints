@@ -120,7 +120,7 @@ local function DisplayUserHistory(self, player)
     GameTooltip:AddLine("  |cff00ff00Lifetime Earned: "..MonDKP_DKPTable[LifetimeSearch[1][1]].lifetime_gained.."|r", 1.0, 1.0, 1.0, true);
     GameTooltip:AddLine("  |cffff0000Lifetime Spent: "..MonDKP_DKPTable[LifetimeSearch[1][1]].lifetime_spent.."|r", 1.0, 1.0, 1.0, true);
   else
-    GameTooltip:AddLine("No DKP Entries", 1.0, 1.0, 1.0, true);
+    GameTooltip:AddLine("No GPP Entries", 1.0, 1.0, 1.0, true);
   end
 
   GameTooltip:Show();
