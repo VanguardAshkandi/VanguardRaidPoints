@@ -1,3 +1,4 @@
+# VANGUARD GUILD -- ASHKANDI US (CLASSIC) http://www.ashkandi.org/
 # VanguardRaidPoints
 
 Instructions: Clone and remove "-master" from the addon directory. Place in "Interface\AddOns" folder   
