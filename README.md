@@ -1,18 +1,18 @@
-# MonolithDKP
+# VanguardRaidPoints
 
 Instructions: Clone and remove "-master" from the addon directory. Place in "Interface\AddOns" folder  
 
 MonDKP is a DKP system written with intent to track all aspects of DKP and looting within WoW. Every member of the guild can have it and have full access to real-time DKP values as well as loot and DKP history.
 This is my first official go at writting an addon despite 15 years of playing the game. So if any bugs or errors show their face, please let me know. Any suggestions or requests are also welcome!  
   
-Features  
+# Features  
 	- DKP Table entries provide a tooltip showing the players recently spent and earned DKP  
 	- Filter the table by certain classes or show only those in your party / raid. Table columns can also be sorted by Player, Class or DKP  
 	- Loot history. What item was won, by whom, from what boss/zone, and how much they spent on it. Can be filtered by player.  
 	- DKP history. Comprehensive list of all players that received (or lost) dkp for each event.  
 	- Bid timer displaying what is currently up for bid as well as it's minimum bid.  
   
-Officer only features  
+# Officer only features  
 	- Bid window (opened by SHIFT+ALT clicking an item in the loot window or by typing /dkp bid [item link]) that starts bidding, collects all bids submitted, and awards the item. NOTE: Shift+Alt clicking an item only works if the item in in one of the first 4 slots of the loot window due to restrictions at the moment. If the item you wish to bid on isn't on the first page, either loot all items on that first page, close and reopen window. Or simply use /dkp bid [item link]  
 	- Adjust DKP tab (awarding DKP). Also includes a DKP Decay option that reduces all entries by X% (default set in options or change on the fly in the Adjust DKP tab)   
 	- Manage Tab. Used to broadcast complete tables to everyone in the guild if required as well as add/remove player entries.  
@@ -38,5 +38,3 @@ Recommendations
 	- Due to the volatile nature of WoW Addons and saved variables, it's recommended you back up your SavedVariables file located at "WTF\Accounts\ACCOUNT_NAME\SavedVariables\MonolithDKP.lua" at the end of every raid week to ensure all data
 	  isn't lost due to somehow losing your WTF folder.  
 	- Export DKP to HTML at the end of a raid week and paste into an HTML file and keep a week by week log in Discord for players to view outside of the game. This will also give you a backup of the data to reapply in the event data is lost.  
-  
-If you'd like to change the Monolith DKP Title image to one for your own guild, you're more than welcome to. It simply requires you replace "MonolithDKP\Media\Textures\mondkp-0title-t.tga" with your custom tga image (MUST be 256 x 64).
