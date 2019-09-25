@@ -1,9 +1,6 @@
 # VanguardRaidPoints
 
-Instructions: Clone and remove "-master" from the addon directory. Place in "Interface\AddOns" folder  
-
-MonDKP is a DKP system written with intent to track all aspects of DKP and looting within WoW. Every member of the guild can have it and have full access to real-time DKP values as well as loot and DKP history.
-This is my first official go at writting an addon despite 15 years of playing the game. So if any bugs or errors show their face, please let me know. Any suggestions or requests are also welcome!  
+Instructions: Clone and remove "-master" from the addon directory. Place in "Interface\AddOns" folder   
   
 # Features  
 	- DKP Table entries provide a tooltip showing the players recently spent and earned DKP  
