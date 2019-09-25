@@ -21,12 +21,12 @@ This is my first official go at writting an addon despite 15 years of playing th
 	- Boss Kill Bonus auto selects the last killed boss/zone  
 	- Options window has additional fields to set bonus defaults (On time bonus, boss kill bonus etc)  
   
-Redundencies  
+# Redundencies  
 	- All entries can only be edited / added by officers in the guild (this is determined by checking Officer Note Writing permissions).  
 	- If the addon is modified to grant a player access to the options available only to officers, attempting to broadcast a modified table will notify officers of this action.  
 	- Every time an officer adds an entry or modifies a DKP value, the public note of the Guild Leader is changed to a time stamp. That time stamp is used to notify other users if they do or do not have the most up-to-date tables.  
   
-Commands  
+# Commands  
 	/dkp ?  	- Lists all available commands  
 	/dkp 		- Opens Main GUI  
 	/dkp timer	- Starts a raid timer (Officers Only) IE: /dkp timer 120 Pizza Break!  
@@ -34,7 +34,7 @@ Commands
 	/dkp export - Exports all entries to HTML (To avoid crashing this will only export the most recent 200 loot history items and 200 DKP history items)  
 	/dkp bid 	- Opens Bid Window. If you include an item link (/dkp bid [item link]) it will include that item for bid information.  
   
-Recommendations  
+# Recommendations  
 	- Due to the volatile nature of WoW Addons and saved variables, it's recommended you back up your SavedVariables file located at "WTF\Accounts\ACCOUNT_NAME\SavedVariables\MonolithDKP.lua" at the end of every raid week to ensure all data
 	  isn't lost due to somehow losing your WTF folder.  
 	- Export DKP to HTML at the end of a raid week and paste into an HTML file and keep a week by week log in Discord for players to view outside of the game. This will also give you a backup of the data to reapply in the event data is lost.  
